@@ -16,5 +16,6 @@ class CalculatorTest {
         val result = calculator.add(5, 5)
 //        mengecek apakah jika result itu hasilnya 10 maka testnya berhasil
         assertEquals(10, result)
+//        jika angka 10 diganti 11 maka akan error karena 5+5 harusnya hasilnya 10
     }
 }
